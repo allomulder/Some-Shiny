@@ -32,7 +32,7 @@ library(shinythemes)
 
 ```{r data, echo=FALSE}
 
-water <- read_xlsx('D:/User/Sasha/AnDan/Datavis/water_new.xlsx') #вчитываем
+water <- read_xlsx('https://github.com/allomulder/Some-Shiny/blob/master/water_new.xlsx') #вчитываем
 names(water) <- c('day', 'last_time', 'when_time', 'temp',
                   'shower_type', 'people_before', 'people_simult') #переименовываем колонки
 
